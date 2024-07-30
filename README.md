@@ -1,16 +1,28 @@
-Aggiungiamo una nuova entità Technology.
-Questa entità rappresenta le tecnologie utilizzate ed è in relazione many to many con i progetti.
-I task da svolgere sono:
+# [*] Milestone 1
 
--   creare la migration per la tabella technologies
--   creare il model Technology
--   creare la migration per la tabella pivot project_technology
--   aggiungere ai model Technology e Project i metodi per definire la relazione many to many
--   visualizzare nella pagina di dettaglio di un progetto le tecnologie utilizzate, se presenti
+-   Aggiungiamo al nostro progetto Laravel una nuovo Api/ProjectController. Questo controller risponderà a delle richieste via API e si occuperà di restituire la lista dei progetti presenti nel database in formato json.
 
-## New Tasks
+# []Milestone 2
 
-I task sono:
-permettere all’utente di associare le tecnologie nella pagina di creazione e modifica di un progetto
-gestire il salvataggio dell’associazione progetto-tecnologie con opportune regole di validazione
-eliminare opportunamente le relazioni alla cancellazione del progetto/technology
+-   Testiamo la chiamata API tramite Postman e assicuriamoci di ricevere i dati correttamente.
+
+# []Milestone 3
+
+-   nome repo 2: vite-boolfolio
+
+-   Iniziamo ad occuparci della parte front-office della nostra applicazione: creiamo un nuovo progetto Vue 3 con Vite e installiamo axios.
+
+-   Colleghiamo questo progetto ad una repo separata.
+
+# []Milestone 4
+
+-   Nel componente principale della nostra Vue App facciamo una chiamata API all’endpoint costruito nel progetto Laravel (milestone 1) e recuperiamo tutti i progetti dal nostro back-end.
+-   Stampiamo in console i risultati e verifichiamo di ricevere i dati correttamente.
+
+# []Milestone 5
+
+-   Creiamo un nuovo componente ProjectCard, che corrisponde ad una card per visualizzare un progetto. Utilizziamo questo componente per visualizzare tutti i progetti ricevuti tramite API.
+
+# []Bonus:
+
+-   Gestire la paginazione dei risultati
